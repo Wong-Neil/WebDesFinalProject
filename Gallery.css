@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(75, 75, 75);
+}
+div.center{
+    text-align: center;
+}
+#gallery-title{
+    background-color: transparent;
+    width: 15%;
+    height: 40px;
+    margin: auto;
+    border: 0px;
+    text-align: center;
+}
+div.gallery-proper{
+    text-align: center;
+}
+#pics{
+    border: 5px solid black;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+   
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div.home-btn{
+    text-align: center;
+}
+button.back-btn{
+    background-color: white;
+    width: 10%;
+    cursor: pointer;
+}
